@@ -1,42 +1,42 @@
 const antibiotics = [
   {
     name: "Amoxicillin",
-    map: "HOSPITAL_AMOXICILLIN_MAP_URL"
+    map: "https://datawrapper.dwcdn.net/pRLQ2/1/"
   },
   {
     name: "Ceftriaxone",
-    map: "HOSPITAL_CEFTRIAXONE_MAP_URL"
+    map: "https://datawrapper.dwcdn.net/eSsVt/1/"
   },
   {
     name: "Ciprofloxacin",
-    map: "HOSPITAL_CIPROFLOXACIN_MAP_URL"
+    map: "https://datawrapper.dwcdn.net/N64iS/1/"
   },
   {
     name: "Cefazolin",
-    map: "HOSPITAL_CEFAZOLIN_MAP_URL"
+    map: "https://datawrapper.dwcdn.net/0nIAJ/2/"
   },
   {
     name: "Azithromycin",
-    map: "HOSPITAL_AZITHROMYCIN_MAP_URL"
+    map: "https://datawrapper.dwcdn.net/Z85Hp/1/"
   },
   {
     name: "Levofloxacin",
-    map: "HOSPITAL_LEVOFLOXACIN_MAP_URL"
+    map: "https://datawrapper.dwcdn.net/ka4LM/1/"
   },
   {
     name: "Gentamicin",
-    map: "HOSPITAL_GENTAMICIN_MAP_URL"
+    map: "https://datawrapper.dwcdn.net/KhQ1T/1/"
   },
   {
     name: "Doxycycline",
-    map: "HOSPITAL_DOXYCYCLINE_MAP_URL"
+    map: "https://datawrapper.dwcdn.net/xUjJU/1/"
   },
   {
     name: "Ampicillin",
-    map: "HOSPITAL_AMPICILLIN_MAP_URL"
+    map: "https://datawrapper.dwcdn.net/h0a1r/1/"
   },
   {
     name: "Amoxicillin/Clavulanate",
-    map: "HOSPITAL_AMOXICILLIN_CLAVULANATE_MAP_URL"
+    map: "https://datawrapper.dwcdn.net/AyFxx/1/"
   }
 ];
