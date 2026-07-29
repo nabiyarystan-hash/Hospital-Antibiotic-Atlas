@@ -37,12 +37,10 @@ function createSmallTable() {
 
     const selectedAntibiotic = antibiotics[select.value].name;
 
-    console.log("Updating table:", selectedAntibiotic);
-
 
     let html = `
 
-    <table>
+    <table class="small-consumption-table">
 
         <tr>
 
@@ -99,12 +97,11 @@ createSmallTable();
 
 select.addEventListener("change", function () {
 
-    console.log("Selected:", antibiotics[this.value].name);
-
 
     loadMap(this.value);
 
 
     createSmallTable();
+
 
 });
