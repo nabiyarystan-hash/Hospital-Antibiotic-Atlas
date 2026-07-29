@@ -99,28 +99,49 @@ iframe {
 
 
 
-/* Полная таблица */
+/* Полная таблица как в Community Atlas */
 
-#fullTable table {
+#fullTable {
     width: 100%;
-    border-collapse: collapse;
-    font-size: 17px;
+    overflow-x: auto;
 }
 
 
-#fullTable th,
+#fullTable table {
+    width: 100%;
+    min-width: 1200px;
+    border-collapse: collapse;
+    font-size: 16px;
+}
+
+
+#fullTable th {
+    background: #0b5ea8;
+    color: white;
+    font-size: 17px;
+    padding: 14px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+
 #fullTable td {
     border: 1px solid #ddd;
     padding: 12px;
     text-align: center;
+    white-space: nowrap;
 }
 
 
-th {
-    background: #0b5ea8;
-    color: white;
-    font-size: 18px;
+#fullTable tr:nth-child(even) {
+    background: #f8f8f8;
 }
+
+
+#fullTable tr:hover {
+    background: #eef6ff;
+}
+
 
 
 footer {
