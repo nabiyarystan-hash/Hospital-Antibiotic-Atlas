@@ -44,10 +44,6 @@ section {
 
 h2 {
     font-size: 26px;
-}
-
-
-.center-title {
     text-align: center;
 }
 
@@ -68,18 +64,21 @@ iframe {
 }
 
 
-/* Маленькая таблица по выбранному антибиотику */
+/* Таблица выбранного антибиотика */
 
-#smallTable {
-    text-align: center;
-}
-
-
-#smallTable table {
+.small-consumption-table {
     width: 70%;
     margin: 0 auto;
     border-collapse: collapse;
     font-size: 17px;
+}
+
+
+.small-consumption-table th,
+.small-consumption-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
 }
 
 
@@ -92,17 +91,15 @@ iframe {
 }
 
 
-th, td {
-    border: 1px solid #ddd;
-    padding: 10px;
-    text-align: center;
-}
-
-
 th {
     background: #0b5ea8;
     color: white;
     font-size: 18px;
+}
+
+
+td {
+    text-align: center;
 }
 
 
