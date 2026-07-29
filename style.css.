@@ -16,12 +16,6 @@ header {
 
 header h1 {
     margin-bottom: 10px;
-    font-size: 32px;
-}
-
-
-header p {
-    font-size: 16px;
 }
 
 
@@ -41,24 +35,16 @@ section {
 }
 
 
-h2 {
-    text-align: center;
-    margin-bottom: 15px;
-}
-
-
 select {
-    display: block;
     width: 100%;
     padding: 12px;
     font-size: 16px;
-    margin: auto;
 }
 
 
 iframe {
     display: block;
-    width: 100%;
+    width: 85%;
     height: 700px;
     margin: 0 auto;
     border: none;
@@ -68,13 +54,12 @@ iframe {
 table {
     width: 100%;
     border-collapse: collapse;
-    font-size: 16px;
 }
 
 
 th, td {
     border: 1px solid #ddd;
-    padding: 10px;
+    padding: 8px;
     text-align: center;
 }
 
