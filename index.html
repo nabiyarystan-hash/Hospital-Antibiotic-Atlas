@@ -12,9 +12,7 @@
 
 </head>
 
-
 <body>
-
 
 <header>
 
@@ -29,10 +27,7 @@ Consumption data are presented by region for hospitals in Kazakhstan (2024).
 
 </header>
 
-
-
 <main>
-
 
 <section>
 
@@ -43,49 +38,36 @@ Consumption data are presented by region for hospitals in Kazakhstan (2024).
 
 </section>
 
-
-
 <section>
 
 <iframe
 id="mapFrame"
 width="100%"
-height="750"
-frameborder="0"
-scrolling="no">
+height="900"
+style="border:none;"
+scrolling="no"
+loading="lazy">
 </iframe>
 
 </section>
-
-
 
 <section>
 
 <h2>Consumption data by region</h2>
 
-<div id="smallTable">
-
-</div>
+<div id="smallTable"></div>
 
 </section>
-
-
 
 <section>
 
 <h2>Complete dataset</h2>
 
-<div id="fullTable">
-
-</div>
+<div id="fullTable"></div>
 
 </section>
 
-
-
 </main>
-
-
 
 <footer>
 
@@ -95,18 +77,9 @@ Source: Kazakhstan hospital antibiotic consumption data, 2024.
 
 </footer>
 
-
-
-<!-- Сначала загружаем данные -->
-
 <script src="data.js"></script>
-
 <script src="tableData.js"></script>
-
-<!-- Потом логику -->
-
 <script src="script.js"></script>
 
 </body>
-
 </html>
