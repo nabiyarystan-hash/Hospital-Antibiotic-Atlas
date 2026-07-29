@@ -112,3 +112,18 @@ footer {
     color: #666;
     font-size: 16px;
 }
+#smallTable {
+    text-align: center;
+}
+
+
+#smallTable table {
+    width: 70% !important;
+    margin: 0 auto !important;
+}
+
+
+#smallTable th,
+#smallTable td {
+    text-align: center;
+}
