@@ -150,3 +150,7 @@ footer {
     color: #666;
     font-size: 16px;
 }
+#fullTable table {
+    width: 1500px !important;
+    font-size: 25px !important;
+}
