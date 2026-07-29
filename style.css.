@@ -44,7 +44,7 @@ select {
 
 iframe {
     display: block;
-    width: 85%;
+    width: 100%;
     height: 700px;
     margin: 0 auto;
     border: none;
