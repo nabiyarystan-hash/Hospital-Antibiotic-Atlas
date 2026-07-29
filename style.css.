@@ -67,25 +67,34 @@ iframe {
 /* Таблица выбранного антибиотика */
 
 #smallTable {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    width: 100%;
 }
 
 
 #smallTable table {
-    width: 700px;
+    width: 100%;
     border-collapse: collapse;
     font-size: 17px;
-    margin: 0 auto;
 }
 
 
 #smallTable th,
 #smallTable td {
     border: 1px solid #ddd;
-    padding: 12px 25px;
+    padding: 12px;
     text-align: center;
+}
+
+
+#smallTable th:first-child,
+#smallTable td:first-child {
+    width: 50%;
+}
+
+
+#smallTable th:last-child,
+#smallTable td:last-child {
+    width: 50%;
 }
 
 
@@ -99,9 +108,10 @@ iframe {
 }
 
 
-th, td {
+#fullTable th,
+#fullTable td {
     border: 1px solid #ddd;
-    padding: 12px 25px;
+    padding: 12px;
     text-align: center;
 }
 
@@ -111,7 +121,6 @@ th {
     color: white;
     font-size: 18px;
 }
-
 
 
 footer {
