@@ -154,3 +154,46 @@ footer {
     width: 1500px !important;
     font-size: 25px !important;
 }
+/* ===== Hospital full table like Community Atlas ===== */
+
+#fullTable {
+    width: calc(100vw - 80px);
+    overflow-x: auto;
+    margin-left: calc(50% - 50vw + 40px);
+}
+
+
+#fullTable table {
+    width: 100%;
+    min-width: 1400px;
+    border-collapse: collapse;
+    font-size: 17px;
+}
+
+
+#fullTable th {
+    background: #0b5ea8;
+    color: white;
+    padding: 14px;
+    border: 1px solid #ddd;
+    text-align: center;
+    white-space: nowrap;
+}
+
+
+#fullTable td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+    white-space: nowrap;
+}
+
+
+#fullTable tr:nth-child(even) {
+    background: #f8f8f8;
+}
+
+
+#fullTable tr:hover {
+    background: #eef6ff;
+}
